@@ -1,16 +1,30 @@
-# React + Vite
+# 🎬 MovieHouse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, responsive movie search engine built with **React** and **Vite**. MovieHouse fetches real-time data from the **OMDB API**, providing users with detailed movie information, posters, and ratings.
 
-Currently, two official plugins are available:
+## ✨ Features
+* **Intelligent Search:** Search for any movie title globally.
+* **Detailed Insights:** Automatically fetches deep details (IMDb Rating, Plot, Genre) for every search result.
+* **Infinite Discovery:** "Load More" functionality with a built-in **Unique Filter** to prevent duplicate movie entries.
+* **Randomized Suggestions:** Homepage features a "Refresh" capability that pulls movies from rotating keywords (Marvel, Disney, Star Wars, etc.).
+* **Responsive UI:** Clean grid layout with CSS-based hover effects and loading animations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+* **Frontend:** React (Hooks: `useState`, `useEffect`)
+* **API Client:** Axios
+* **Icons:** React Icons (Ant Design style)
+* **Data Source:** [OMDB API](http://www.omdbapi.com/)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 How to Run Locally
+1.  Clone the repository:
+    ```bash
+    git clone [https://github.com/rohitmanitripathy/MoviesHouse.git](https://github.com/rohitmanitripathy/MoviesHouse.git)
+    ```
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
+3.  Start the development server:
+    ```bash
+    npm run dev
+    ```
